@@ -32,7 +32,7 @@ function randomNumber(minimumValue, maximumValue){
     return valorePc;
 }
 
-// somma dei due numeri
+// somma i due numeri
 function sommaNumeri(val1, val2){
     let somma = val1 + val2;
     return somma;
@@ -42,13 +42,13 @@ function sommaNumeri(val1, val2){
 const button = document.getElementById("my-button");
 button.addEventListener('click', function(){
     let numeroPc = randomNumber(1, 5);
-    let sommaNumeri;
+    let sommatoria;
     let nPlayer = inputNumber.value;
     console.log(numeroPc);
     console.log(nPlayer);
-    sommaNumeri = (nPlayer, numeroPc);
-    console.log(sommaNumeri);
-    //outPutFinale.innerHTML = sommaNumeri;
+    sommatoria = sommaNumeri(nPlayer, numeroPc);
+    console.log(sommatoria);
+    outPutFinale.innerHTML = sommaNumeri;
 
     /*
     if ((sommaNumeri %2 == 0) && (inputPariDispari.value == "pari")){
