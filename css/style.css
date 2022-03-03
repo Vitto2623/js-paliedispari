@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main .container-1{
+    padding: 30px;
+}
+
+.container-1 p{
+    margin-top: 10px;
+}
+
+/*PARI-O-DISPARI*/
+main .container-2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container-2 label{
+    font-size: 1.3em;
+    margin-right: 5px;
+}
+
+.container-2 select{
+    height: 29px;
+    font-size: 1.2em;
+    color: red;
+}
+
+input{
+    margin-top: 30px;
+    height: 29px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.container-2 h3{
+    margin-top: 20px;
+}
+
+.container-2 button{
+    margin-top: 30px;
+    font-size: 1.8em;
+    padding: 13px;
+    border-radius: 50px;
+    color: red;
+    border: 2px solid red;
+}
